@@ -1,0 +1,129 @@
+body{
+
+    margin:0;
+
+    font-family:"Yu Gothic",sans-serif;
+
+    background:#bde8ff;
+
+}
+
+header{
+
+    background:#2196f3;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+#game{
+
+    width:700px;
+
+    margin:40px auto;
+
+    background:rgb(255, 255, 255);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+
+}
+
+#character{
+
+    width:300px;
+
+    height:auto;
+
+    border-radius:15px;
+
+}
+
+#name{
+
+    margin-top:20px;
+
+}
+
+#text{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin:30px;
+
+}
+
+h1{
+    color: rgb(255, 234, 0);
+}
+
+.buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+}
+
+button{
+
+    width:200px;
+
+    height:60px;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    border:none;
+
+    border-radius:10px;
+
+    color:rgb(255, 255, 255);
+
+}
+
+#accept{
+
+    background:#4CAF50;
+
+}
+
+#reject{
+
+    background:#F44336;
+
+}
+
+button:hover{
+
+    transform:scale(1.05);
+
+}
+
+.restart{
+    background-color:#636363;  
+    color:white;
+    border:none;
+    padding: 15px 30px;
+    font-size:20px;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.restart:hover{
+    background-color:#636363;
+}
